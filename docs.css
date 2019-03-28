@@ -1,0 +1,37 @@
+html {
+  -webkit-overflow-scrolling: touch;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  user-select: none;
+  font-family: Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  background: #405459;
+}
+
+.container {
+  background-color: #fff;
+  width: 600px;
+  height: 600px;
+  margin: 20px auto 0;
+  background: url('./glocose.gif') no-repeat;
+  animation: transform 8s steps(8, end) 1 forwards;
+}
+
+@keyframes transform {  
+  0% {background-position: 0 0; }
+  100% {background-position: -4800px 0; } 
+}
