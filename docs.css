@@ -19,7 +19,7 @@ body {
   padding: 0;
   margin: 0;
   height: 100%;
-  background: #405459;
+  background: #fff;
 }
 
 .container {
@@ -27,11 +27,11 @@ body {
   width: 600px;
   height: 600px;
   margin: 20px auto 0;
-  background: url('./glocose.gif') no-repeat;
-  animation: transform 8s steps(8, end) 1 forwards;
+  background: url('./glucose.gif') no-repeat;
+  animation: transform 8s steps(12, end) infinite forwards;
 }
 
-@keyframes transform {  
+@keyframes transform {
   0% {background-position: 0 0; }
-  100% {background-position: -4800px 0; } 
+  100% {background-position: -7200px 0; }
 }
